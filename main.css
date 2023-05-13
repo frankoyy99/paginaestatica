@@ -1,0 +1,65 @@
+
+body{
+    background-color:  #e9e3e3;
+    margin: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.cabecera{
+    /* border-style: groove;
+    border-color: #7fffd4; */
+    /* text-align: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+    
+    margin-top: 70px;
+}
+
+.titulo1{
+font-weight: bold;
+color: blue;
+}
+.contenedor-definiciones{
+    display: flex;
+    margin-top: 70px;
+}
+.definicion{
+    
+    flex:1;
+    max-height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.contenedor-imagen{
+    
+    margin-top: 70px;
+    /* border-style: groove;
+    border-color: red; */
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+img{
+    /* width: 100%; */
+    display: block;/*1er paso para poder mover la imagen al centro*/
+    margin: auto;/*pone centrada la imagen*/
+    border-radius: 20px;/*elimina los bordes cuadrados de la imagens*/
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);/*pone sombra a la imagen*/
+}
+.nube-publica{
+    margin-top: 50px;
+}
+.caracteristicas{
+    font-weight: bold;
+}
